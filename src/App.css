@@ -89,4 +89,5 @@ section .content .btn{
   padding: 20px 15px;
   font-size: 18px;
   border-radius: 6px;
+  background-color: white;
 }
