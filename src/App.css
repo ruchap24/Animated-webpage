@@ -7,6 +7,7 @@
   font-family: "Inter",sans-serif;
   font-optical-sizing: auto;
 }
+
 body{
   min-height: 100vh;
   background: #222;
@@ -19,6 +20,7 @@ header{
   display: flex;
   justify-content: space-between;
 }
+
 header .logo{
   color:white;
   font-size: 2em;
