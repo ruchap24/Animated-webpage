@@ -5,7 +5,7 @@
   padding:0;
   box-sizing: border-box;
   font-family: "Inter",sans-serif;
-  font-optical-sizing: auto;
+  /* font-optical-sizing: auto; */
 }
 
 body{
@@ -41,8 +41,8 @@ header ul li{
 
 header ul li a{
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+  /* font-size: 16px;
+  font-weight: 600; */
   color: #b9b9b9;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -71,23 +71,23 @@ section .content{
 section .content h2{
   font-size: 4.4em;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 section .content h2 b{
   color:#0f0;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 section .content p{
   color:#999;
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 1.1em;
 }
 
 section .content .btn{
   padding: 20px 15px;
-  font-size: 18px;
+  /* font-size: 18px; */
   border-radius: 6px;
   background-color: white;
   color: black;
@@ -96,4 +96,24 @@ section .content .btn{
   display: inline-block;
   margin-top: 25px;
   letter-spacing: 0.2em;
+}
+
+section .container{
+  position: relative;
+  right:100px;
+  min-width: 400px;
+  /* background-color: rgb(217, 18, 18); */
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section .container .element{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: rgb(188,255,188);
+  scale: 0.75;
 }
