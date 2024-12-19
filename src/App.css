@@ -13,15 +13,16 @@ body{
   background: #222;
 }
 
-header{
+header {
   position: fixed;
   padding: 30px 100px;
   width: 100px;
-  display: flex;
   justify-content: space-between;
+  display: flex;
 }
 
-header .logo{
+header div .logo{
+  margin :0;
   color:white;
   font-size: 2em;
   text-decoration: none;
@@ -41,16 +42,19 @@ header ul li{
 
 header ul li a{
   text-decoration: none;
-  /* font-size: 16px;
-  font-weight: 600; */
+  font-size: 16px;
+  font-weight: 600;
   color: #b9b9b9;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   transition: 0.5s;
 }
 
-header ul li a:hover,header ul li a.active{
-  color: white;
+
+header ul li a.active:hover{
+  color: rgb(231, 12, 12);
+  font-size:18px;
+  font-weight: 650;
 }
 
 /* hero section */
@@ -96,6 +100,13 @@ section .content .btn{
   display: inline-block;
   margin-top: 25px;
   letter-spacing: 0.2em;
+}
+
+section .content a.btn:hover{
+  background-color: black;
+  color: rgb(248, 242, 242);
+  font-size:18px;
+  font-weight: 650;
 }
 
 section .container{

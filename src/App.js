@@ -67,9 +67,9 @@ function App() {
       {/* header section start */}
       <header>
         {/* Logo area */}
-        <a href='#' className='logo'>
+        <div><a href='#' className='logo'>
           Logo
-        </a>
+        </a></div>
         {/* Navigation Area */}
         <ul>
           <li>
